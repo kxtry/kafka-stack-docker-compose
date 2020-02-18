@@ -35,5 +35,5 @@ if [ $? = 1 ]; then
    echo "must input external ip which can be connected by client."
    exit 1
 fi
-/bin/cp -rf $path_script/${template} $path_script/docker-compose.yml && echo "$path_script/docker-compose.yml" | xargs /bin/sed -i "s#\${DOCKER_HOST_IP:-127.0.0.1}#${external_ip}#g"
+/bin/cp -rf $path_script/template/${template} $path_script/docker-compose.yml && echo "$path_script/docker-compose.yml" | xargs /bin/sed -i "s#\${DOCKER_HOST_IP:-127.0.0.1}#${external_ip}#g"
 
