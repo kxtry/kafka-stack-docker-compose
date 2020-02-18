@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/simplesteph/kafka-stack-docker-compose.svg?branch=master)](https://travis-ci.org/simplesteph/kafka-stack-docker-compose)
-
+# modify the yml to template
+# remove the docker-compose file and run setup.sh to generate the new docker-compose.yml file.
 
 # kafka-stack-docker-compose
 
